@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)noiseRingButtonClicked{
+    NSString *displayWord = @"Just Insert Nose Ring";
+    
+    self.label.text = displayWord;
+}
+
+- (IBAction)brushTeethButtonClicked{
+     NSString *displayWord = @"Just Brushed Teeth";
+    self.label.text = displayWord;
+}
+
+- (IBAction)justSpikedHairButtonClicked{
+    NSString *displayWord = @"Just Spiked Hair";
+    self.label.text = displayWord;
+    
+}
+
 @end
