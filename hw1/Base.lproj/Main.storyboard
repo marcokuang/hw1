@@ -24,48 +24,48 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxa-B6-YMY">
-                                <rect key="frame" x="40" y="411" width="46" height="30"/>
+                                <rect key="frame" x="20" y="411" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="WearGlasses">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="noiseRingButtonClicked" destination="vXZ-lx-hvc" eventType="touchDown" id="eQ2-aS-AFo"/>
+                                    <action selector="wearGlassesButtonClicked" destination="vXZ-lx-hvc" eventType="touchUpInside" id="utf-TI-58V"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CM6-p0-5Kc">
-                                <rect key="frame" x="40" y="158" width="240" height="233"/>
+                                <rect key="frame" x="40" y="96" width="240" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFh-aX-1I2">
-                                <rect key="frame" x="234" y="411" width="46" height="30"/>
+                                <rect key="frame" x="232" y="411" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="CombHair">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="justSpikedHairButtonClicked" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Azv-uX-gHn"/>
+                                    <action selector="combHairButtonClicked" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KGU-iU-FtV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QM-5m-w1b">
-                                <rect key="frame" x="137" y="411" width="46" height="30"/>
+                                <rect key="frame" x="121" y="411" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="BrushTeeth">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="brushTeethButtonClicked" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iwr-qe-htS"/>
+                                    <action selector="brushTeethButtonClicked" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pgw-aX-fuG"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="brushTeethButton" destination="zFh-aX-1I2" id="Axu-8o-ThH"/>
-                        <outlet property="imageDisplay" destination="CM6-p0-5Kc" id="Nng-SU-vd0"/>
-                        <outlet property="justSpikedHairButton" destination="2QM-5m-w1b" id="Lwb-v6-rww"/>
+                        <outlet property="brushTeethButton" destination="2QM-5m-w1b" id="t2Q-9F-TUT"/>
+                        <outlet property="combHairButton" destination="zFh-aX-1I2" id="bXh-ps-cav"/>
+                        <outlet property="imageDisplay" destination="CM6-p0-5Kc" id="sJc-Ni-g4G"/>
                         <outlet property="label" destination="eqa-8k-HMh" id="s7x-Rl-K6d"/>
-                        <outlet property="noiseRingButton" destination="wxa-B6-YMY" id="I8a-9x-cgA"/>
+                        <outlet property="wearGlassesButton" destination="wxa-B6-YMY" id="5lL-g5-K59"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

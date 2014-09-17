@@ -21,6 +21,14 @@
 		28AD81AC19C901250035D34F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AD818E19C901250035D34F /* UIKit.framework */; };
 		28AD81B419C901250035D34F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28AD81B219C901250035D34F /* InfoPlist.strings */; };
 		28AD81B619C901250035D34F /* hw1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD81B519C901250035D34F /* hw1Tests.m */; };
+		28BD76EB19C9691D00A93C55 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E319C9691D00A93C55 /* 1.JPG */; };
+		28BD76EC19C9691D00A93C55 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E419C9691D00A93C55 /* 2.JPG */; };
+		28BD76ED19C9691D00A93C55 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E519C9691D00A93C55 /* 3.JPG */; };
+		28BD76EE19C9691D00A93C55 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E619C9691D00A93C55 /* 4.JPG */; };
+		28BD76EF19C9691D00A93C55 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E719C9691D00A93C55 /* 5.JPG */; };
+		28BD76F019C9691D00A93C55 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E819C9691D00A93C55 /* 6.JPG */; };
+		28BD76F119C9691D00A93C55 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76E919C9691D00A93C55 /* 7.JPG */; };
+		28BD76F219C9691D00A93C55 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28BD76EA19C9691D00A93C55 /* 8.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		28AD81B119C901250035D34F /* hw1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw1Tests-Info.plist"; sourceTree = "<group>"; };
 		28AD81B319C901250035D34F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28AD81B519C901250035D34F /* hw1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw1Tests.m; sourceTree = "<group>"; };
+		28BD76E319C9691D00A93C55 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		28BD76E419C9691D00A93C55 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		28BD76E519C9691D00A93C55 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		28BD76E619C9691D00A93C55 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		28BD76E719C9691D00A93C55 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
+		28BD76E819C9691D00A93C55 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
+		28BD76E919C9691D00A93C55 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
+		28BD76EA19C9691D00A93C55 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,7 @@
 				28AD819C19C901250035D34F /* Main.storyboard */,
 				28AD819F19C901250035D34F /* ViewController.h */,
 				28AD81A019C901250035D34F /* ViewController.m */,
+				28BD76E219C9618500A93C55 /* Resources */,
 				28AD81A219C901250035D34F /* Images.xcassets */,
 				28AD819119C901250035D34F /* Supporting Files */,
 			);
@@ -150,6 +167,21 @@
 				28AD81B219C901250035D34F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BD76E219C9618500A93C55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28BD76E319C9691D00A93C55 /* 1.JPG */,
+				28BD76E419C9691D00A93C55 /* 2.JPG */,
+				28BD76E519C9691D00A93C55 /* 3.JPG */,
+				28BD76E619C9691D00A93C55 /* 4.JPG */,
+				28BD76E719C9691D00A93C55 /* 5.JPG */,
+				28BD76E819C9691D00A93C55 /* 6.JPG */,
+				28BD76E919C9691D00A93C55 /* 7.JPG */,
+				28BD76EA19C9691D00A93C55 /* 8.JPG */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +260,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BD76F219C9691D00A93C55 /* 8.JPG in Resources */,
+				28BD76EC19C9691D00A93C55 /* 2.JPG in Resources */,
+				28BD76EF19C9691D00A93C55 /* 5.JPG in Resources */,
 				28AD81A319C901250035D34F /* Images.xcassets in Resources */,
+				28BD76EB19C9691D00A93C55 /* 1.JPG in Resources */,
+				28BD76ED19C9691D00A93C55 /* 3.JPG in Resources */,
+				28BD76F119C9691D00A93C55 /* 7.JPG in Resources */,
+				28BD76EE19C9691D00A93C55 /* 4.JPG in Resources */,
+				28BD76F019C9691D00A93C55 /* 6.JPG in Resources */,
 				28AD819519C901250035D34F /* InfoPlist.strings in Resources */,
 				28AD819E19C901250035D34F /* Main.storyboard in Resources */,
 			);
@@ -456,6 +496,7 @@
 				28AD81BB19C901250035D34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28AD81BC19C901250035D34F /* Build configuration list for PBXNativeTarget "hw1Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +505,7 @@
 				28AD81BE19C901250035D34F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

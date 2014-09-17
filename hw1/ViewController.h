@@ -9,15 +9,24 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIImageView *imageDisplay;
 
-@property (weak, nonatomic) IBOutlet UIButton *noiseRingButton;
-@property (weak, nonatomic) IBOutlet UIButton *justSpikedHairButton;
+@property (weak, nonatomic) IBOutlet UIButton *wearGlassesButton;
+@property (weak, nonatomic) IBOutlet UIButton *combHairButton;
 @property (weak, nonatomic) IBOutlet UIButton *brushTeethButton;
+
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
-- (IBAction)noiseRingButtonClicked;
+- (IBAction)wearGlassesButtonClicked;
 - (IBAction)brushTeethButtonClicked;
-- (IBAction)justSpikedHairButtonClicked;
+- (IBAction)combHairButtonClicked;
+
+- (void) displayImage;
+
+@property BOOL statusOfW;
+@property BOOL statusOfB;
+@property BOOL statusOfH;
+
 
 @end
